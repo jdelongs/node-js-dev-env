@@ -3,13 +3,13 @@
  * in source directory
  */
 
-var express = require('express');//call express
-var path = require('path'); //reference to path
-var open = require('open'); //reference to open to open the site in the browser
+import express from 'express';//call express
+import path from'path'; //reference to path
+import open from 'open'; //reference to open to open the site in the browser
 
 
-var port = 3000; //stores the port
-var app = express(); //create an instance of express
+const port = 3000; //stores the port
+const app = express(); //create an instance of express
 
 /**
  * this method tells express which routes it should handle
